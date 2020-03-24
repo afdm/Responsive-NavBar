@@ -75,7 +75,7 @@ nav a {
     right: 0;
     top: 10vh;
     height: 90vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 66vw;
     background: #3a4377;
     transform: translateX(100%);

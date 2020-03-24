@@ -9,8 +9,8 @@
     navbarLinks.forEach((link, index) => {
       // Handmade toggle :)
       if (!link.style.animation) {
-        link.style.animation = `smoothTranslate ${(index + 1) *
-          0.3}s ease-in-out forwards`;
+        link.style.animation = `smoothTranslate ease-out ${(index + 3) *
+          0.3}s forwards`;
       } else link.style.animation = "";
     });
   });
