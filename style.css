@@ -6,10 +6,20 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   background: #202021;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+p,
+a {
+  font-size: 1.6rem;
 }
 
 nav {
@@ -72,7 +82,7 @@ nav a {
   }
 
   .toggle-navbar {
-    animation: smoothTranslate 0.8s ease forwards;
+    animation: smoothTranslate 0.7s ease-out forwards;
   }
 
   @keyframes smoothTranslate {
