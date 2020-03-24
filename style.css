@@ -72,6 +72,18 @@ nav a {
   }
 
   .toggle-navbar {
-    transform: translateX(0);
+    animation: smoothTranslate 0.8s ease forwards;
+  }
+
+  @keyframes smoothTranslate {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 }
