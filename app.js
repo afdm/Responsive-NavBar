@@ -2,7 +2,6 @@
   const burger = document.querySelector(".burger");
   const navbar = document.querySelector("nav ul");
   const navbarLinks = document.querySelectorAll("nav ul li");
-  const burgerLines = document.querySelectorAll(".burger .lines");
 
   burger.addEventListener("click", () => {
     navbar.classList.toggle("toggle-navbar");
