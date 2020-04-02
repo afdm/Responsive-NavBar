@@ -1,4 +1,4 @@
-(function() {
+window.addEventListener("load", () => {
   const burger = document.querySelector(".burger");
   const navbar = document.querySelector("nav ul");
   const navbarLinks = document.querySelectorAll("nav ul li");
@@ -15,4 +15,4 @@
       } else link.style.animation = "";
     });
   });
-})();
+});
