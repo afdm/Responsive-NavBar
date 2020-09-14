@@ -36,7 +36,7 @@ nav {
   padding: 0 6rem;
 }
 
-nav ul {
+.nav__menu {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -44,16 +44,16 @@ nav ul {
 }
 
 nav,
-nav a {
+.menu__items a {
   color: #fefefe;
   text-decoration: none;
 }
 
-.burger {
+.nav__burger {
   display: none;
 }
 
-.burger .lines {
+.burger__lines {
   width: 2rem;
   height: 0.2rem;
   margin: 0.5rem;
@@ -70,7 +70,7 @@ nav a {
     justify-content: left;
   }
 
-  nav ul {
+  .nav__menu {
     flex-direction: column;
     align-items: center;
     position: absolute;
@@ -85,7 +85,7 @@ nav a {
     z-index: 3;
   }
 
-  .burger {
+  .nav__burger {
     display: block;
     cursor: pointer;
     flex-grow: 0.1;
@@ -95,20 +95,20 @@ nav a {
     transform: translateX(0);
   }
 
-  .lines:nth-child(2) {
+  .burger__lines:nth-child(2) {
     opacity: 1;
   }
 
-  .toggle .lines:nth-child(1) {
+  .toggle .burger__lines:nth-child(1) {
     transform: rotate(45deg) translate(-0.5rem, 1.5rem);
   }
 
-  .toggle .lines:nth-child(2) {
+  .toggle .burger__lines:nth-child(2) {
     transform: translateX(-1.4rem);
     opacity: 0;
   }
 
-  .toggle .lines:nth-child(3) {
+  .toggle .burger__lines:nth-child(3) {
     transform: rotate(-45deg) translate(-0.5rem, -1.5rem);
   }
 
