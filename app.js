@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
-  const burger = document.querySelector(".nav__burger");
-  const menu = document.querySelector(".nav__menu");
+  const burger = document.querySelector(".burger");
+  const menu = document.querySelector(".menu");
   const menuItems = document.querySelectorAll(".menu__items");
 
   burger.addEventListener("click", () => {
